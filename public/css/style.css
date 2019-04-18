@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  margin: 5px;
+  height: 250px;
+}
+
+.flex-item:hover {
+  flex: 2;
+  flex-direction: row;
+}
+
+select {
+  position: relative;
+  font-family: verdana, fantasy;
+  font-size: 130%
+}
+
+body {
+  text-align: center;
+}
